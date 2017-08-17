@@ -1,0 +1,566 @@
+@charset "utf-8";
+/* CSS Document */
+img.only-for-desktop {
+    display: none;
+}
+html{ overflow-x:hidden;}
+@media only screen and (max-width:1500px) and (min-width: 767px) 
+{
+	.mapix-section-right {
+    float: right;
+}
+.meet-drink-section-right {
+    float: right;
+}
+	}
+@media(max-width:1199px) {
+	
+	.menu-section.navbar {
+    font-size: 16px;
+    margin-top: 26px;
+}
+
+	
+	}
+@media(max-width:980px) {
+.menu-section {
+    padding-left: 0px;
+}
+.meet-drink-section-right {
+    padding-left: 69px;
+}
+.martinlabs-right-section {
+    padding-left: 10px;
+}
+.menu-section a {
+    font-size: 15px;
+    padding-left: 0px !important;
+    padding-right: 13px !important;
+}
+.header-bottom-section-main h1 {
+    font-size: 43px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.header-bottom-section-main h2 {
+    font-size: 36px;
+}
+.header-bottom-section-main h1 {
+    font-size: 39px;
+}
+.container {
+    width:100%;
+}	
+/* .meet-drink-section-right {
+    padding-left: 66px;
+}
+.martinlabs-right-section {
+    padding-left: 26px;
+}
+.mapix-section-right {
+    padding-left: 69px;
+} */
+.footer-left li {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.footer-left {
+    word-wrap: break-word;
+}
+.footer-right {
+    padding-left: 84px;
+}
+.by-apptite-left-section {
+    margin-bottom: 32px;
+}
+.panorist-section {
+    background: #f00 url(../images/bg-image.jpg);
+    background-size: contain;
+}
+.menu-section.navbar {
+    font-size: 15px;
+    margin-top: 26px;
+}
+.mapix-section-right {
+  /*   padding-left: 115px; */
+}
+	
+	}
+@media(max-width:767px) {
+	
+img.only-for-desktop {
+    display: block;
+}	
+.mapix-section-right,.meet-drink-section-right {
+    background-image: none;
+    padding-left: 0px !important;
+}	
+.header-bottom-section-main h1 {
+    font-size: 41px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.header-bottom-section-main h1 {
+    font-size: 39px;
+}
+.header-bottom-section-main h2 {
+    font-size: 33px;
+}
+.meet-drink-section-right {
+    padding-left:100px;
+}
+.mapix-section-right {
+    padding-left: 111px;
+}
+
+.martinlabs-right-section {
+    padding-left: 10px;
+    /* text-align: justify; */
+}
+.mapix-section-right {
+    padding-left: 112px;
+}
+.meet-drink-section-right {
+       padding-left: 119px;
+}
+
+.martinlabs-right-section {
+    padding-left: 20px;
+}
+/*
+MENU 
+*/
+.menu-section.navbar {
+    font-size: 18px;
+    margin-top: 26px;
+    position: static !important;
+}
+div#myNavbar {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    background: #3b3c3e;
+    top: 123px;
+    z-index: 100;
+}
+ul.nav.navbar-nav {
+    width: 100%; margin:0px;
+}
+button.navbar-toggle {
+    margin-top: -19px;
+}
+ul.nav.navbar-nav a {
+    display: block;
+    padding: 10px !important;
+    /* padding: 10px; */
+}
+ul.nav.navbar-nav a:hover {
+    background: #28303b;
+}
+.menu-section.navbar ul {
+    float: left;
+    padding-top: 35px;
+  padding-bottom: 35px;
+}
+.navbar {
+    position: relative;
+    min-height: inherit;
+    margin-bottom: 0px;
+}
+/*
+MENU  END
+*/
+/*
+==================
+ONLY FOR IMAGE 
+====================
+*/
+.martinlabs-left-section {
+    margin-top: 60px;
+}
+.technologies-section-left li {
+    margin-bottom: 47px;
+}
+.by-apptite-right-section img {
+    width: 58%;
+    display: block;
+    margin: 0 auto;
+}
+.technologies-section-mid {
+    margin-bottom: 42px;
+}
+.mapix-section-left img {
+    width: 58%;
+    display: block;
+    margin: 0 auto;
+}
+.panorist-right-section img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+.meet-drink-section-left img {
+    width: 53%;
+    display: block;
+    margin: 0 auto;
+}
+.martinlabs-left-section img {
+    width: 55%;
+    display: block;
+    margin: 0 auto;
+}
+.technologies-section-mid img {
+    width: 37% !important;
+}
+
+
+
+/*
+===================
+ONLY FOR IMAGE END 
+====================
+*/
+
+
+	}
+@media(max-width:680px) {
+	
+.mapix-section-left {
+    margin-top: 50px;
+}
+.meet-drink-section-left {
+    margin-top: 50px;
+}	
+	
+.header-bottom-section-main h1 {
+    font-size: 29px;
+}
+.technologies-section-right {
+    margin-top: 37px;
+}
+
+.martinlabs-right-section {
+    padding-top: 25px !important;
+}
+.header-bottom-section-main h2 {
+    font-size: 30px;
+}
+.technologies-section-left li {
+    margin-bottom: 48px;
+}
+.martinlabs-right-section {
+    padding-left: 0px;
+    /* text-align: justify; */
+}
+.mapix-section-right {
+    padding-left: 87px;
+}
+
+.header-bottom-section-main p {
+    font-size: 21px;
+    text-transform: uppercase;
+}
+.by-apptite-left-section {
+    margin-bottom: 36px;
+}
+h1.inner-heading-1 {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.panorist-section {
+    background-size: contain;
+}
+.martinlabs-right-section h1 {
+    font-size: 31px;
+}	
+.meet-drink-section-right {
+    padding-left: 88px;
+}
+/*
+MENU 
+*/
+.menu-section.navbar {
+    font-size: 18px;
+    margin-top: 26px;
+    position: static !important;
+}
+div#myNavbar {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    background: #3b3c3e;
+    top: 123px;
+    z-index: 100;
+}
+ul.nav.navbar-nav {
+    width: 100%; margin:0px;
+}
+button.navbar-toggle {
+    margin-top: -19px;
+}
+ul.nav.navbar-nav a {
+    display: block;
+    padding: 10px !important;
+    /* padding: 10px; */
+}
+ul.nav.navbar-nav a:hover {
+    background: #28303b;
+}
+.menu-section.navbar ul {
+    float: left;
+    padding-top: 35px;
+  padding-bottom: 35px;
+}
+.navbar {
+    position: relative;
+    min-height: inherit;
+    margin-bottom: 0px;
+}
+/*
+MENU  END
+*/
+
+/*
+==================
+ONLY FOR IMAGE 
+====================
+*/
+.by-apptite-right-section img {
+    width: 58%;
+    display: block;
+    margin: 0 auto;
+}
+.mapix-section-left img {
+    width: 58%;
+    display: block;
+    margin: 0 auto;
+}
+.panorist-right-section img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+.meet-drink-section-left img {
+    width: 53%;
+    display: block;
+    margin: 0 auto;
+}
+.martinlabs-left-section img {
+    width: 55%;
+    display: block;
+    margin: 0 auto;
+}
+.technologies-section-mid img {
+    width: 37% !important;
+}
+
+
+
+/*
+===================
+ONLY FOR IMAGE END 
+====================
+*/
+
+
+
+	}
+@media(max-width:480px){
+
+img.only-for-desktop {
+    display: block;    margin: 0 auto;
+}
+	
+.header-bottom-section h2 {
+    margin-top: 0px;
+}
+	
+	
+a.read-more-button {
+    font-size: 19px;
+	
+	}	
+.header-bottom-section-main h1 {
+    font-size: 27px;
+}
+.meet-drink-section-right {
+       padding-left: 62px;
+}
+.mapix-section-right {
+   padding-left: 62px;
+}
+
+h1.heading-section {
+    font-size: 37px;
+}
+.martinlabs-right-section {
+    padding-left: 0px;
+	}
+.martinlabs-right-section h1 {
+    font-size: 26px;
+}
+p {
+    font-size: 17px;
+}
+a.request-a-quote {
+    font-size: 17px;
+}
+.header-bottom-section-main h2 {
+    font-size: 20px;
+}
+.header-bottom-section-main p {
+    font-size: 16px;
+}
+div#myNavbar {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    background: #3b3c3e;
+    top: 94px;
+    z-index: 100;
+}
+h1.heading-section {
+    font-size: 31px;
+}
+.martinlabs-right-section {
+    padding-top: 25px !important;
+}
+/*
+==================
+ONLY FOR IMAGE 
+====================
+*/
+.by-apptite-right-section img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.mapix-section-left img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.panorist-right-section img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.meet-drink-section-left img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.martinlabs-left-section img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.technologies-section-mid img {
+        width: 100% !important;
+}
+
+
+
+/*
+===================
+ONLY FOR IMAGE END 
+====================
+*/
+/*
+==================
+Responsive issue 
+===================
+*/
+.by-apptite-section {
+    text-align: center;
+}
+.technologies-section-left li {
+    margin-bottom: 46px;
+}
+.technologies-section-right {
+    margin-top: 40px;
+}
+.mapix-section {
+    text-align: center;
+}
+.panorist-section {
+    text-align: center;
+}
+.meet-drink-section {
+    text-align: center;
+}
+.martinlabs-left-section {
+    margin-top: 25px;
+}
+.martinlabs-left-section {
+    margin-top: 25px;
+}
+.martinlabs-right-section {
+    text-align: center;
+	    padding-right: 0px;
+
+}
+.footer-left {
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+/*
+MENU 
+*/
+/* .menu-section.navbar {
+    font-size: 18px;
+    margin-top: 26px;
+    position: static !important;
+}
+div#myNavbar {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    background: #3b3c3e;
+    top: 68px;
+    z-index: 100;
+}
+ul.nav.navbar-nav {
+    width: 100%; margin:0px;
+}
+button.navbar-toggle {
+    margin-top: -19px;
+}
+ul.nav.navbar-nav a {
+    display: block;
+    padding: 10px !important;
+}
+ul.nav.navbar-nav a:hover {
+    background: #28303b;
+}
+.menu-section.navbar ul {
+    float: left;
+    padding-top: 35px;
+  padding-bottom: 35px;
+}
+.navbar {
+    position: relative;
+    min-height: inherit;
+    margin-bottom: 0px;
+} */
+/*
+MENU  END
+*/
+}
+
+@media(max-width:580px) {}
+@media(max-width:384px) {
+	div#myNavbar {
+    top: 86px;
+}
+}
+@media(max-width:320px) {
+	div#myNavbar {
+    top: 72px;
+}
+}
+@media(max-width:340px) {}

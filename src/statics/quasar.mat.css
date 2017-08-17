@@ -1,0 +1,962 @@
+/*
+ * Quasar Framework v0.13.10
+ * (c) 2017 Razvan Stoenescu
+ * Released under the MIT License.
+ */
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'brandon_grotesquelight';
+    src: url('~assets/fonts/brandon_light-webfont.woff2') format('woff2'),
+         url('~assets/fonts/brandon_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*
+====================
+HEADER SECTION 
+=======================
+*/
+
+body{ font-family: 'brandon_grotesquelight'; overflow-x:hidden;
+}
+a{ text-decoration:none;}
+ul{ margin:0px; padding:0px;}
+li{ list-style-type:none;}
+p {
+    font-size: 22px;
+}
+img{ max-width:100%; height:auto;}
+.header-section{ background:url(~src/assets/slider-img.png);background-size: cover;
+    background-attachment: fixed;}
+.header-top-section-main {
+    background: rgba(38, 45, 55, 0.73);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+a.visit-us:hover {
+    background: #000;
+    text-decoration: none;
+}
+span.icon-bar {
+    background: #fff;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    color: #f35e40;
+    background: transparent;
+}
+a.read-more-button:hover {
+    background: #f35e40;
+    text-decoration: none;
+    border: 2px solid #f35e40;
+}
+.header-bottom-section {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+a.read-more-button {
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #fff;
+    /* padding: 16px; */
+    display: inline-block;
+    border: 2px solid #fff;
+    margin-top: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.header-bottom-section-main:after {
+    position: absolute;
+    background: rgba(64, 67, 74, 0.35);
+    left: 0px;
+    right: 0px;
+    z-index: 10;
+    top: 0px;
+    bottom: 0px;
+    content: "";
+    display: block;
+}
+a.footer-submit-button:hover {
+    background: #000;
+    text-decoration: none;
+} 
+.header-bottom-section-main .container {
+    z-index: 12;
+    position: relative; color:#fff;
+}
+.header-bottom-section-main h2{ font-size:45px;}
+.header-bottom-section-main h1{    font-size: 56px;
+    font-weight: bold;}
+.header-bottom-section-main p {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.header-bottom-section-main {
+    position: relative;
+}
+.menu-section.navbar ul {
+    float: right;
+}
+.menu-section.navbar a {
+    text-transform: uppercase;
+    color: #fff;
+}
+.menu-section.navbar {
+    font-size: 18px;
+  margin-top: 26px;
+}
+
+/*
+=================
+by-apptite
+======================
+*/
+.by-apptite-section.container-fluid {
+    background: #8760db;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.col-sm-6.by-apptite-left-section h1 {
+    font-size: 32px;
+}
+
+h1.inner-heading-1 {
+    font-size: 38px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+h2.inner-heading-2 {
+    font-size: 29px;
+    text-transform: capitalize !important;
+}
+
+
+/*
+================
+mapix-section
+==================
+*/
+li.ios-icon{ background:url(~assets/Apple.png);    background-repeat: no-repeat;}
+li.android-icon{ background:url(~src/assets/Andriiod.png);    background-repeat: no-repeat;}
+li.html-icon{ background:url(~src/assets/HTDlL5-icon.png);    background-repeat: no-repeat;}
+li.amazon-web-services-icon{ background:url(~src/assets/Amazon-Web-Services.png);    background-repeat: no-repeat;}
+.mapix-section.container-fluid {
+    background: #1587d9;
+    color: #fff;
+}
+.meet-drink-section{    background: #973b3f;
+    color: #fff; padding-top:50px; padding-bottom:50px;}
+li.amazon-web-services-icon {
+    padding-top: 9px;
+}
+.mapix-section-right{ background:url(~src/assets/next-icon1.png);}
+.martinlabs-right-section {
+    padding-left: 100px;
+    /* text-align: justify; */
+}
+.mapix-section-right {
+    background:url(~src/assets/icon.png);
+    background-repeat: no-repeat;
+    padding-left: 95px;
+    background-size: 12%;
+    background-position: 10px 20px;
+}
+.footer-right img {
+    float: left;
+    margin-right: 15px;    margin-top: 5px;
+}
+.footer-right .fa {
+    float: left;
+    margin-right: 15px;    margin-top: 5px;
+}
+.meet-drink-section-right{ background: url(~src/assets/next-icon1.png);
+    background-repeat: no-repeat;
+    padding-left: 95px;
+    background-size: 12%;
+    background-position: 10px 20px;}
+.col-sm-6.martinlabs-right-section {
+    padding-top: 65px;
+}
+.mapix-section-right h1 {
+    /* font-size: 42px; */
+}
+.mapix-section-right h2 {
+   /* font-size: 25px;
+    text-transform: uppercase; */
+}
+.mapix-section-right p {
+    /* padding-top: 24px;
+    padding-bottom: 14px; */
+}
+h2.inner-heading-3 {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 32px;
+}
+.mapix-section-right hr {
+       border-top: 1px solid #49a1e0;
+}
+a.visit-us {
+    display: block;
+    font-size: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    background: rgba(47, 47, 47, 0.26);
+    display: inline-block;
+    padding-left: 70px;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    padding-right: 70px;
+    border-radius: 30px;    margin-top: 35px;
+}
+.mapix-section-left img {
+    /* width: 86%; */
+}
+.panorist-section{ background:url(~src/assets/bg-image.jpg);}
+.panorist-section{ padding-top:50px; padding-bottom:50px; color:#fff;}
+.mapix-section.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.by-apptite-left-section h1 {
+    font-size: 32px;
+    margin-bottom: 38px;
+}
+.panorist-right-section {
+   margin-top: 60px;
+}
+
+/*
+================
+martinlabs-section
+=================
+*/
+.martinlabs-section.container-fluid {
+    background: #1d1d1d;
+    color: #fff;
+}
+.technologies-section.container-fluid {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.row.martinlabs-section-top {
+    text-align: center;
+}
+.col-sm-6.martinlabs-right-section li {
+    margin-bottom: 38px;
+    border-bottom: 2px solid #373737;
+    padding-bottom: 32px;
+}
+.martinlabs-right-section li:last-child {
+    border-bottom: 0px;
+    margin-bottom: 0px;
+}
+a.request-a-quote {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #f6674a;
+    padding-left: 42px;
+    padding-right: 30px;
+    padding-bottom: 14px;
+    padding-top: 13px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: inline-block;
+}
+.martinlabs-section.container-fluid {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.technologies-section-mid.col-sm-4 img {
+    width: 81%;
+    display: block;
+    margin: 0 auto;
+}
+.technologies-section-left li,.technologies-section-right li {
+    padding-left: 70px;
+}
+/*
+==============
+Technologies
+=================
+*/
+.technologies-section-left.col-sm-4 h1,.technologies-section-right h1 {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+}
+.technologies-section-left p,.technologies-section-right p {
+    font-size: 20px;
+}
+.technologies-section-left li {
+    margin-bottom: 117px;
+}
+.technologies-section-right.col-sm-4 li {
+    margin-bottom: 73px;
+}
+h1.heading-section {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 39px;
+    font-size: 48px;
+}
+/*
+=============
+FOOTER SECTION 
+=================
+*/
+.footer-section {
+    background: #f7f7f7;
+    padding-top: 50px;
+    padding-bottom: 50px;
+   font-size: 20px;
+}
+.footer-left li {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 40px;
+    margin-left: 50px;
+    margin-right: 96px;
+    padding-top: 40px;
+}
+.footer-mid li {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 17px;
+    margin-bottom: 35px;
+}
+a.footer-submit-button {
+    display: inline-block;
+    background: #f7694c;
+    color: #fff;
+    /* padding: 10px; */
+    text-transform: uppercase;
+    padding-left: 80px;
+    padding-right: 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.footer-mid {
+    text-align: center;
+}
+.footer-right li a {
+    color: #0e0d0d;
+    display: block;
+    margin-bottom: 30px;
+}
+.footer-right {
+    padding-left: 100px;
+}
+.footer-left {
+    margin-top: 30px;
+}
+.footer-left li:last-child {
+    border-bottom: 0px;
+}
+.footer-right {
+    margin-top: 33px;
+}
+.footer-left li:first-child {
+    padding-top: 0px;
+}
+
+
+/*
+==============
+COPYRIGHT SECTION 
+======================
+*/
+.copyright-section {
+    background: #e5e5e5;
+    padding-top: 19px;
+}
+
+.copyright-section p {
+    font-size: 14px;
+}
+
+/*start responsive-css.css*/
+@charset "utf-8";
+/* CSS Document */
+img.only-for-desktop {
+    display: none;
+}
+@media only screen and (max-width:1500px) and (min-width: 767px) 
+{
+    .mapix-section-right {
+    float: right;
+}
+.meet-drink-section-right {
+    float: right;
+}
+    }
+@media(max-width:1199px) {
+    
+    .menu-section.navbar {
+    font-size: 16px;
+    margin-top: 26px;
+}
+
+    
+    }
+@media(max-width:980px) {
+.menu-section {
+    padding-left: 0px;
+}
+.meet-drink-section-right {
+    padding-left: 69px;
+}
+.martinlabs-right-section {
+    padding-left: 10px;
+}
+.menu-section a {
+    font-size: 15px;
+    padding-left: 0px !important;
+    padding-right: 13px !important;
+}
+.header-bottom-section-main h1 {
+    font-size: 43px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.header-bottom-section-main h2 {
+    font-size: 36px;
+}
+.header-bottom-section-main h1 {
+    font-size: 39px;
+}
+.container {
+    width:100%;
+}   
+/* .meet-drink-section-right {
+    padding-left: 66px;
+}
+.martinlabs-right-section {
+    padding-left: 26px;
+}
+.mapix-section-right {
+    padding-left: 69px;
+} */
+.footer-left li {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.footer-left {
+    word-wrap: break-word;
+}
+.footer-right {
+    padding-left: 84px;
+}
+.by-apptite-left-section {
+    margin-bottom: 32px;
+}
+.panorist-section {
+    background: #f00 url(~assets/bg-image.jpg);
+    background-size: contain;
+}
+.menu-section.navbar {
+    font-size: 15px;
+    margin-top: 26px;
+}
+.mapix-section-right {
+  /*   padding-left: 115px; */
+}
+    
+    }
+@media(max-width:767px) {
+    
+img.only-for-desktop {
+    display: block;    margin: 0 auto;
+}   
+.mapix-section-right,.meet-drink-section-right {
+    background-image: none;
+    padding-left: 0px !important;
+}   
+.header-bottom-section-main h1 {
+    font-size: 41px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.header-bottom-section-main h1 {
+    font-size: 39px;
+}
+.header-bottom-section-main h2 {
+    font-size: 33px;
+}
+.meet-drink-section-right {
+    padding-left:100px;
+}
+.mapix-section-right {
+    padding-left: 111px;
+}
+
+.martinlabs-right-section {
+    padding-left: 10px;
+    /* text-align: justify; */
+}
+.mapix-section-right {
+    padding-left: 112px;
+}
+.meet-drink-section-right {
+       padding-left: 119px;
+}
+
+.martinlabs-right-section {
+    padding-left: 20px;
+}
+/*
+MENU 
+*/
+.menu-section.navbar {
+    font-size: 18px;
+    margin-top: 26px;
+    position: static !important;
+}
+div#myNavbar {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    background: #3b3c3e;
+    top: 123px;
+    z-index: 100;
+}
+ul.nav.navbar-nav {
+    width: 100%; margin:0px;
+}
+button.navbar-toggle {
+    margin-top: -19px;
+}
+ul.nav.navbar-nav a {
+    display: block;
+    padding: 10px !important;
+    /* padding: 10px; */
+}
+ul.nav.navbar-nav a:hover {
+    background: #28303b;
+}
+.menu-section.navbar ul {
+    float: left;
+    padding-top: 35px;
+  padding-bottom: 35px;
+}
+.navbar {
+    position: relative;
+    min-height: inherit;
+    margin-bottom: 0px;
+}
+/*
+MENU  END
+*/
+/*
+==================
+ONLY FOR IMAGE 
+====================
+*/
+.martinlabs-left-section {
+    margin-top: 60px;
+}
+.technologies-section-left li {
+    margin-bottom: 47px;
+}
+.by-apptite-right-section img {
+    width: 58%;
+    display: block;
+    margin: 0 auto;
+}
+.technologies-section-mid {
+    margin-bottom: 42px;
+}
+.mapix-section-left img {
+    width: 58%;
+    display: block;
+    margin: 0 auto;
+}
+.panorist-right-section img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+.meet-drink-section-left img {
+    width: 53%;
+    display: block;
+    margin: 0 auto;
+}
+.martinlabs-left-section img {
+    width: 55%;
+    display: block;
+    margin: 0 auto;
+}
+.technologies-section-mid img {
+    width: 37% !important;
+}
+
+
+
+/*
+===================
+ONLY FOR IMAGE END 
+====================
+*/
+
+
+    }
+@media(max-width:680px) {
+    
+.mapix-section-left {
+    margin-top: 50px;
+}
+.meet-drink-section-left {
+    margin-top: 50px;
+}   
+    
+.header-bottom-section-main h1 {
+    font-size: 29px;
+}
+.technologies-section-right {
+    margin-top: 37px;
+}
+
+.martinlabs-right-section {
+    padding-top: 25px !important;
+}
+.header-bottom-section-main h2 {
+    font-size: 30px;
+}
+.technologies-section-left li {
+    margin-bottom: 48px;
+}
+.martinlabs-right-section {
+    padding-left: 0px;
+    /* text-align: justify; */
+}
+.mapix-section-right {
+    padding-left: 87px;
+}
+
+.header-bottom-section-main p {
+    font-size: 21px;
+    text-transform: uppercase;
+}
+.by-apptite-left-section {
+    margin-bottom: 36px;
+}
+h1.inner-heading-1 {
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.panorist-section {
+    background-size: contain;
+}
+.martinlabs-right-section h1 {
+    font-size: 31px;
+}   
+.meet-drink-section-right {
+    padding-left: 88px;
+}
+/*
+MENU 
+*/
+.menu-section.navbar {
+    font-size: 18px;
+    margin-top: 26px;
+    position: static !important;
+}
+div#myNavbar {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    background: #3b3c3e;
+    top: 123px;
+    z-index: 100;
+}
+ul.nav.navbar-nav {
+    width: 100%; margin:0px;
+}
+button.navbar-toggle {
+    margin-top: -19px;
+}
+ul.nav.navbar-nav a {
+    display: block;
+    padding: 10px !important;
+    /* padding: 10px; */
+}
+ul.nav.navbar-nav a:hover {
+    background: #28303b;
+}
+.menu-section.navbar ul {
+    float: left;
+    padding-top: 35px;
+  padding-bottom: 35px;
+}
+.navbar {
+    position: relative;
+    min-height: inherit;
+    margin-bottom: 0px;
+}
+/*
+MENU  END
+*/
+
+/*
+==================
+ONLY FOR IMAGE 
+====================
+*/
+.by-apptite-right-section img {
+    width: 58%;
+    display: block;
+    margin: 0 auto;
+}
+.mapix-section-left img {
+    width: 58%;
+    display: block;
+    margin: 0 auto;
+}
+.panorist-right-section img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+.meet-drink-section-left img {
+    width: 53%;
+    display: block;
+    margin: 0 auto;
+}
+.martinlabs-left-section img {
+    width: 55%;
+    display: block;
+    margin: 0 auto;
+}
+.technologies-section-mid img {
+    width: 37% !important;
+}
+
+
+
+/*
+===================
+ONLY FOR IMAGE END 
+====================
+*/
+
+
+
+    }
+@media(max-width:480px){
+    
+.header-bottom-section h2 {
+    margin-top: 0px;
+}
+    
+    
+a.read-more-button {
+    font-size: 19px;
+    
+    }   
+.header-bottom-section-main h1 {
+    font-size: 27px;
+}
+.meet-drink-section-right {
+       padding-left: 62px;
+}
+.mapix-section-right {
+   padding-left: 62px;
+}
+
+h1.heading-section {
+    font-size: 37px;
+}
+.martinlabs-right-section {
+    padding-left: 0px;
+    }
+.martinlabs-right-section h1 {
+    font-size: 26px;
+}
+p {
+    font-size: 17px;
+}
+a.request-a-quote {
+    font-size: 17px;
+}
+.header-bottom-section-main h2 {
+    font-size: 20px;
+}
+.header-bottom-section-main p {
+    font-size: 16px;
+}
+div#myNavbar {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    background: #3b3c3e;
+    top: 94px;
+    z-index: 100;
+}
+h1.heading-section {
+    font-size: 31px;
+}
+.martinlabs-right-section {
+    padding-top: 25px !important;
+}
+/*
+==================
+ONLY FOR IMAGE 
+====================
+*/
+.by-apptite-right-section img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.mapix-section-left img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.panorist-right-section img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.meet-drink-section-left img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.martinlabs-left-section img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.technologies-section-mid img {
+        width: 100% !important;
+}
+
+
+
+/*
+===================
+ONLY FOR IMAGE END 
+====================
+*/
+/*
+==================
+Responsive issue 
+===================
+*/
+.by-apptite-section {
+    text-align: center;
+}
+.technologies-section-left li {
+    margin-bottom: 46px;
+}
+.technologies-section-right {
+    margin-top: 40px;
+}
+.mapix-section {
+    text-align: center;
+}
+.panorist-section {
+    text-align: center;
+}
+.meet-drink-section {
+    text-align: center;
+}
+.martinlabs-left-section {
+    margin-top: 25px;
+}
+.martinlabs-left-section {
+    margin-top: 25px;
+}
+.martinlabs-right-section {
+    text-align: center;
+        padding-right: 0px;
+
+}
+.footer-left {
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+/*
+MENU 
+*/
+/* .menu-section.navbar {
+    font-size: 18px;
+    margin-top: 26px;
+    position: static !important;
+}
+div#myNavbar {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    background: #3b3c3e;
+    top: 68px;
+    z-index: 100;
+}
+ul.nav.navbar-nav {
+    width: 100%; margin:0px;
+}
+button.navbar-toggle {
+    margin-top: -19px;
+}
+ul.nav.navbar-nav a {
+    display: block;
+    padding: 10px !important;
+}
+ul.nav.navbar-nav a:hover {
+    background: #28303b;
+}
+.menu-section.navbar ul {
+    float: left;
+    padding-top: 35px;
+  padding-bottom: 35px;
+}
+.navbar {
+    position: relative;
+    min-height: inherit;
+    margin-bottom: 0px;
+} */
+/*
+MENU  END
+*/
+}
+
+@media(max-width:580px) {}
+@media(max-width:384px) {
+    div#myNavbar {
+    top: 86px;
+}
+}
+@media(max-width:320px) {
+    div#myNavbar {
+    top: 72px;
+}
+}
+@media(max-width:340px) {}
+
+/*end responsive-css.css*/
+
+/*animate.css*/
+/*animations*/

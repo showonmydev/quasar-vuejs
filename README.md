@@ -9,9 +9,9 @@ Martin Labs is made in Quasar framework. Quasar framework is based on vue js
 Cd <folder name>
 
 4-> Install npm dependencies by package.json file
-    ### npm install
+   ### npm install
 	
 5-> Running the tests
 -> Start a development server of your first App, equipped with hot reload:
-	### Quasar dev
+### Quasar dev
  
